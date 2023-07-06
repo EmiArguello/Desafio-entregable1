@@ -23,5 +23,7 @@ product.addProduct('colchon', 130000, 'resortes', '1234', 5)
 product.addProduct('almohada', 30000, 'con interior de plumas', '1122', 8)
 product.addProduct('sabanas', 5000, 'tres mil hilos', '1357', 3)
 
-console.log(product.getProduct());
-console.log(product.getProductById());
+console.log(product.getProduct(0));
+console.log(product.getProductById(1));
+console.log(product.getProductById(2));
+console.log(product.getProductById(3));
